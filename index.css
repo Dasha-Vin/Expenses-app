@@ -8,7 +8,7 @@ body {
 .container {
     margin: 0 auto;
     width: 950px;
-    padding-top: 70px;
+    padding-top: 40px;
 }
 
 h1 {
@@ -120,6 +120,14 @@ h2 {
     text-align: left;
 }
 
+p {
+    margin-bottom: 10px;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
 span {
     font-weight: 400;
 }
@@ -143,7 +151,7 @@ span {
 }
 
 .button-reset {
-    margin-top: 112px;
+    margin-top: 90px;
     background-color: red;
     width: 484px;
     height: 58px;
@@ -155,6 +163,7 @@ span {
     line-height: 39px;
     text-align: center;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 
 .error_text {
